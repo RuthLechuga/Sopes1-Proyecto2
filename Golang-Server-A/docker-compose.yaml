@@ -1,22 +1,29 @@
-version: '2'
+version: '3.3'
 
-services:
-  nginx-proxy:
-    restart: always
-    image: jwilder/nginx-proxy
-    ports:
-      - "80:80"
-      - "443:443"
-    volumes:
-      - "/etc/nginx/vhost.d"
-      - "/usr/share/nginx/html"
-      - "/var/run/docker.sock:/tmp/docker.sock:ro"
-      - "/etc/nginx/certs"
+services: 
+    api:
+        build: "./Golang"
+        ports:
+            - "8080"
+        restart: "always"
+        networks: 
+            - "api.network"
+        deploy:
+            replicas: 2
+    
+    nginx:
+        image: nginx:latest
+        volumes:
+            - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+        depends_on: 
+            - api
+        ports: 
+            - "80:80"
+        networks: 
+            - "api.network"
 
-  letsencrypt-nginx-proxy-companion:
-    restart: always
-    image: jrcs/letsencrypt-nginx-proxy-companion
-    volumes:
-      - "/var/run/docker.sock:/var/run/docker.sock:ro"
-    volumes_from:
-      - "nginx-proxy"
+networks: 
+    api.network:
+
+#docker-compose --compatibility up --build
+#se accede mediant el puerto :80

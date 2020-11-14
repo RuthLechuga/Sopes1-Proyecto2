@@ -18,6 +18,7 @@ type Caso struct {
 }
 
 func main() {
+	log.Printf("Escuchando...")
 	http.HandleFunc("/", postData)
 	http.ListenAndServe(":8080", nil)
 }
@@ -26,21 +27,19 @@ func postData(writer http.ResponseWriter, request *http.Request) {
 	switch request.Method {
 		case "GET":
 			fmt.Fprintf(writer, "Hola Mundo!\n")
-			
-		case "POST":
-			fmt.Fprintf(writer, "Datos recibidos!\n")
-			log.Printf("Datos recibidos!")
 
+		case "POST":
 			if err := request.ParseForm(); err != nil {
 				fmt.Fprintf(writer, "ParseForm() err: %v", err)
 				return
 			}
 
 			reqBody, _ := ioutil.ReadAll(request.Body)
-			var caso Caso 
-    		json.Unmarshal(reqBody, &caso)
+			var caso Caso
+			json.Unmarshal(reqBody, &caso)
 			log.Printf(caso.Name+" => "+strconv.Itoa(caso.Age))
-		
+			fmt.Fprintf(writer, "Datos recibidos!\n")
+
 		default:
 			fmt.Fprintf(writer, "Error en la solicitud!\n")
 	}

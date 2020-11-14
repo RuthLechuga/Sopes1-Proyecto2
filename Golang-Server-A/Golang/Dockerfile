@@ -13,6 +13,9 @@ RUN apk add ca-certificates
 COPY --from=build /tmp/app/out/api /app/api
 WORKDIR "/app"
 
-EXPOSE 8000
+EXPOSE 8080
 
 CMD ["./api"]
+
+# docker build -t loadbalance-api .
+# docker run --name api --rm -p 8080:8080 loadbalance-api
