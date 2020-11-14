@@ -1,0 +1,20 @@
+{
+    "Casos": 
+    [
+        {
+            "name": "Pablo Mendoza",
+            "location": "Guatemala City",
+            "age": 35,
+            "infectedtype": "communitary",
+            "state": "asymptomatic"
+        },
+
+        {
+            "name": "Jonás Santos",
+            "location": "Guatemala City",
+            "age": 23,
+            "infectedtype": "communitary",
+            "state": "symptomatic"
+        }
+    ]
+}    
