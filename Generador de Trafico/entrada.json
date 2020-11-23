@@ -1,0 +1,354 @@
+{
+"Casos": [
+		{
+		"name": "Jose Valdez",
+		"location": "Izabal",
+		"age": 50,
+		"infectedtype": "communitary",
+		"state": "asymptomatic"
+		},
+		{
+		"name": "Jonás Santos",
+		"location": "Izabal",
+		"age": 13,
+		"infectedtype": "communitary",
+		"state": "symptomatic"
+		},
+		{
+		"name": "Ana Santos",
+		"location": "Guatemala City",
+		"age": 14,
+		"infectedtype": "communitary",
+		"state": "symptomatic"
+		},
+		{
+		"name": "Mario Santos",
+		"location": "Petén",
+		"age": 17,
+		"infectedtype": "communitary",
+		"state": "symptomatic"
+		},
+		{
+		"name": "Carlos Santos",
+		"location": "Guatemala City",
+		"age": 18,
+		"infectedtype": "communitary",
+		"state": "symptomatic"
+		},
+		{
+		"name": "Roberto Santos",
+		"location": "Escuintla",
+		"age": 39,
+		"infectedtype": "communitary",
+		"state": "symptomatic"
+		},
+		{
+		"name": "Doroteo Santos",
+		"location": "San Marcos",
+		"age": 23,
+		"infectedtype": "communitary",
+		"state": "symptomatic"
+		},
+		{
+		"name": "Rodolfo Santos",
+		"location": "Huehuetenango",
+		"age": 23,
+		"infectedtype": "communitary",
+		"state": "symptomatic"
+		},
+		{
+		"name": "Klaus Santos",
+		"location": "Huehuetenango",
+		"age": 23,
+		"infectedtype": "communitary",
+		"state": "symptomatic"
+		},
+		{
+		"name": "Raul Santos",
+		"location": "Huehuetenango",
+		"age": 23,
+		"infectedtype": "communitary",
+		"state": "symptomatic"
+		},
+		{
+		"name": "Jose Valdez",
+		"location": "Izabal",
+		"age": 22,
+		"infectedtype": "communitary",
+		"state": "asymptomatic"
+		},
+		{
+		"name": "Jonás Santos",
+		"location": "Izabal",
+		"age": 23,
+		"infectedtype": "communitary",
+		"state": "symptomatic"
+		},
+		{
+		"name": "Ana Santos",
+		"location": "Guatemala City",
+		"age": 23,
+		"infectedtype": "communitary",
+		"state": "symptomatic"
+		},
+		{
+		"name": "Mario Santos",
+		"location": "Petén",
+		"age": 23,
+		"infectedtype": "communitary",
+		"state": "symptomatic"
+		},
+		{
+		"name": "Carlos Santos",
+		"location": "Guatemala City",
+		"age": 23,
+		"infectedtype": "communitary",
+		"state": "symptomatic"
+		},
+		{
+		"name": "Roberto Santos",
+		"location": "Escuintla",
+		"age": 23,
+		"infectedtype": "communitary",
+		"state": "symptomatic"
+		},
+		{
+		"name": "Doroteo Santos",
+		"location": "San Marcos",
+		"age": 23,
+		"infectedtype": "communitary",
+		"state": "symptomatic"
+		},
+		{
+		"name": "Rodolfo Santos",
+		"location": "Huehuetenango",
+		"age": 23,
+		"infectedtype": "communitary",
+		"state": "symptomatic"
+		},
+		{
+		"name": "Klaus Santos",
+		"location": "Huehuetenango",
+		"age": 23,
+		"infectedtype": "communitary",
+		"state": "symptomatic"
+		},
+		{
+		"name": "Raul Santos",
+		"location": "Huehuetenango",
+		"age": 23,
+		"infectedtype": "communitary",
+		"state": "symptomatic"
+		},
+		{
+		"name": "Jose Valdez",
+		"location": "Izabal",
+		"age": 22,
+		"infectedtype": "communitary",
+		"state": "asymptomatic"
+		},
+		{
+		"name": "Jonás Santos",
+		"location": "Izabal",
+		"age": 23,
+		"infectedtype": "communitary",
+		"state": "symptomatic"
+		},
+		{
+		"name": "Ana Santos",
+		"location": "Guatemala City",
+		"age": 23,
+		"infectedtype": "communitary",
+		"state": "symptomatic"
+		},
+		{
+		"name": "Mario Santos",
+		"location": "Petén",
+		"age": 23,
+		"infectedtype": "communitary",
+		"state": "symptomatic"
+		},
+		{
+		"name": "Carlos Santos",
+		"location": "Guatemala City",
+		"age": 23,
+		"infectedtype": "communitary",
+		"state": "symptomatic"
+		},
+		{
+		"name": "Roberto Santos",
+		"location": "Escuintla",
+		"age": 23,
+		"infectedtype": "communitary",
+		"state": "symptomatic"
+		},
+		{
+		"name": "Doroteo Santos",
+		"location": "San Marcos",
+		"age": 23,
+		"infectedtype": "communitary",
+		"state": "symptomatic"
+		},
+		{
+		"name": "Rodolfo Santos",
+		"location": "Huehuetenango",
+		"age": 23,
+		"infectedtype": "communitary",
+		"state": "symptomatic"
+		},
+		{
+		"name": "Klaus Santos",
+		"location": "Huehuetenango",
+		"age": 23,
+		"infectedtype": "communitary",
+		"state": "symptomatic"
+		},
+		{
+		"name": "Raul Santos",
+		"location": "Huehuetenango",
+		"age": 23,
+		"infectedtype": "communitary",
+		"state": "symptomatic"
+		},
+		{
+		"name": "Jose Valdez",
+		"location": "Izabal",
+		"age": 22,
+		"infectedtype": "communitary",
+		"state": "asymptomatic"
+		},
+		{
+		"name": "Jonás Santos",
+		"location": "Izabal",
+		"age": 23,
+		"infectedtype": "communitary",
+		"state": "symptomatic"
+		},
+		{
+		"name": "Ana Santos",
+		"location": "Guatemala City",
+		"age": 23,
+		"infectedtype": "communitary",
+		"state": "symptomatic"
+		},
+		{
+		"name": "Mario Santos",
+		"location": "Petén",
+		"age": 23,
+		"infectedtype": "communitary",
+		"state": "symptomatic"
+		},
+		{
+		"name": "Carlos Santos",
+		"location": "Guatemala City",
+		"age": 23,
+		"infectedtype": "communitary",
+		"state": "symptomatic"
+		},
+		{
+		"name": "Roberto Santos",
+		"location": "Escuintla",
+		"age": 23,
+		"infectedtype": "communitary",
+		"state": "symptomatic"
+		},
+		{
+		"name": "Doroteo Santos",
+		"location": "San Marcos",
+		"age": 23,
+		"infectedtype": "communitary",
+		"state": "symptomatic"
+		},
+		{
+		"name": "Rodolfo Santos",
+		"location": "Huehuetenango",
+		"age": 23,
+		"infectedtype": "communitary",
+		"state": "symptomatic"
+		},
+		{
+		"name": "Klaus Santos",
+		"location": "Huehuetenango",
+		"age": 23,
+		"infectedtype": "communitary",
+		"state": "symptomatic"
+		},
+		{
+		"name": "Raul Santos",
+		"location": "Huehuetenango",
+		"age": 23,
+		"infectedtype": "communitary",
+		"state": "symptomatic"
+		},
+		{
+		"name": "Jose Valdez",
+		"location": "Izabal",
+		"age": 22,
+		"infectedtype": "communitary",
+		"state": "asymptomatic"
+		},
+		{
+		"name": "Jonás Santos",
+		"location": "Izabal",
+		"age": 23,
+		"infectedtype": "communitary",
+		"state": "symptomatic"
+		},
+		{
+		"name": "Ana Santos",
+		"location": "Guatemala City",
+		"age": 23,
+		"infectedtype": "communitary",
+		"state": "symptomatic"
+		},
+		{
+		"name": "Mario Santos",
+		"location": "Petén",
+		"age": 23,
+		"infectedtype": "communitary",
+		"state": "symptomatic"
+		},
+		{
+		"name": "Carlos Santos",
+		"location": "Guatemala City",
+		"age": 23,
+		"infectedtype": "communitary",
+		"state": "symptomatic"
+		},
+		{
+		"name": "Roberto Santos",
+		"location": "Escuintla",
+		"age": 23,
+		"infectedtype": "communitary",
+		"state": "symptomatic"
+		},
+		{
+		"name": "Doroteo Santos",
+		"location": "San Marcos",
+		"age": 23,
+		"infectedtype": "communitary",
+		"state": "symptomatic"
+		},
+		{
+		"name": "Rodolfo Santos",
+		"location": "Huehuetenango",
+		"age": 23,
+		"infectedtype": "communitary",
+		"state": "symptomatic"
+		},
+		{
+		"name": "Klaus Santos",
+		"location": "Huehuetenango",
+		"age": 23,
+		"infectedtype": "communitary",
+		"state": "symptomatic"
+		},
+		{
+		"name": "Raul Santos",
+		"location": "Huehuetenango",
+		"age": 23,
+		"infectedtype": "communitary",
+		"state": "symptomatic"
+		}
+	]
+}

@@ -6,6 +6,12 @@ RUN apk update && apk upgrade && \
 WORKDIR /tmp/app
 COPY . .
 
+RUN go get google.golang.org/protobuf/cmd/protoc-gen-go
+RUN go get google.golang.org/grpc/cmd/protoc-gen-go-grpc
+RUN go get github.com/golang/protobuf/proto
+RUN go get golang.org/x/net/http2
+RUN go get golang.org/x/sys/unix
+RUN go get google.golang.org/genproto/googleapis/rpc/status
 RUN GOOS=linux go build -o ./out/api .
 FROM alpine:latest
 

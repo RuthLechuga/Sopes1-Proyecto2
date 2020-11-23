@@ -13,7 +13,7 @@ import (
 	"net/http"
 )
 
-//urlBalanceador nginx:  http://34.122.251.203:80
+//urlBalanceador: 192.168.99.100:80
 //ruta archivo: datos.json
 
 var urlBalanceador string

@@ -2,7 +2,7 @@ version: '3.3'
 
 services: 
     api:
-        build: "./Golang"
+        build: "./Golang-Server-A/Golang"
         ports:
             - "8080"
         restart: "always"
@@ -11,10 +11,18 @@ services:
         deploy:
             replicas: 2
     
+    server:
+        build: "./Python-Server-A"
+        ports:
+            - "50051:50051"
+        restart: "always"
+        networks: 
+            - "api.network"
+
     nginx:
         image: nginx:latest
         volumes:
-            - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+            - ./Golang-Server-A/nginx/nginx.conf:/etc/nginx/nginx.conf:ro
         depends_on: 
             - api
         ports: 
